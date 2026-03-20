@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="mrpsystem.client/mrpsystem.client.esproj">
+  <Project Path="mrp-system.client/mrp-system.client.esproj">
     <Build />
     <Deploy />
   </Project>
