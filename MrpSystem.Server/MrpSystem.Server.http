@@ -1,6 +1,0 @@
-@MrpSystem.Server_HostAddress = http://localhost:5052
-
-GET {{MrpSystem.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
