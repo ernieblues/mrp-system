@@ -5,6 +5,7 @@ import { fileURLToPath, URL } from 'node:url';
 import { env } from 'node:process';
 
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 
 const baseFolder =
@@ -41,6 +42,7 @@ const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_H
 export default defineConfig({
     plugins: [
         react(),
+        tailwindcss(),
     ],
     resolve: {
         alias: {
