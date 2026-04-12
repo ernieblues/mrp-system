@@ -1,4 +1,4 @@
-import { Beaker, Home, Sun, User as UserIcon } from "lucide-react";
+import { Home, Sun, User as UserIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -81,21 +81,6 @@ export default function Layout({
                                         }`}
                                 >
                                     Home
-                                </span>
-                            </Link>
-                        </li>
-                        <li>
-                            {/* Test */}
-                            <Link
-                                to="/test"
-                                className="flex items-center h-12 px-2 hover:bg-base-200 rounded"
-                            >
-                                <Beaker className="w-5 h-5 flex-shrink-0" />
-                                <span
-                                    className={`ml-2 whitespace-nowrap overflow-hidden transition-opacity duration-200 ${sidebarOpen ? "opacity-100" : "opacity-0"
-                                        }`}
-                                >
-                                    Test
                                 </span>
                             </Link>
                         </li>

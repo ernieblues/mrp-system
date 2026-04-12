@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MrpSystem.Server.Models;
+
 using MrpSystem.Server.DTOs;
+using MrpSystem.Server.Models;
 
 namespace MrpSystem.Server.Controllers
 {
